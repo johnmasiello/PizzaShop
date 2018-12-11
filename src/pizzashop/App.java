@@ -11,5 +11,11 @@ public class App {
         Pizza cheesePizza; // only in stack
         cheesePizza = new Pizza(size, crust, "Cheese", "Tomato Sauce", "Pepperoni"); // now in heap
         System.out.println(cheesePizza);
+
+        String a, b;
+        a = "asdf";
+        b = new String("asdf");
+        b = "asdf";
+        System.out.println(a == b);
     }
 }
